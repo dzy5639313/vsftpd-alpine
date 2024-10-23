@@ -36,6 +36,6 @@ jobs:
           linux/s390x
         push: true
         tags: |
-          ${{ secrets.DOCKERHUB_USERNAME }}/vsftpd-alpine:latest
+          ${{ env.DOCKERHUB_REPO }}:latest
 
     

@@ -41,6 +41,6 @@ jobs:
           linux/s390x
         push: true
         tags: |
-          ${{ env.DOCKERHUB_REPO }}:latest
+          dzy5639313/vsftpd-alpine:latest
 
     
